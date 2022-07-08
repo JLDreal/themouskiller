@@ -29,7 +29,7 @@ w = Canvas(root,
 w.pack(expand=YES, fill=BOTH)
 w.configure(bg='#000001')
 w.bind("<Motion>",change)
-
+w.bind("<Leave>",change)
 
 
 root.update()
