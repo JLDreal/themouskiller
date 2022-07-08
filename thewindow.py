@@ -19,7 +19,7 @@ root = Tk()
 root.attributes('-alpha', 0.01)
 root.attributes('-topmost', 1)
 root.attributes('-fullscreen',1)
-
+root.protocol("WM_DELETE_WINDOW", 1)
 root.geometry("500x500+"+str(x)+"+"+str(y)+"")
 
 root.title("Points")
